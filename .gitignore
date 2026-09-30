@@ -10,6 +10,10 @@ modpkgtmp/
 *.uinError
 *.db.[0-9]*
 
+# Scene descriptor của map khác, game hay copy lẫn vào thư mục map
+scenetree/scene/*.uscene
+!scenetree/scene/30396532858891_MapDefault.uscene
+
 # File log & System cache
 *.log
 .DS_Store

@@ -6,6 +6,10 @@ wdescbackup.fb
 thumb_temp.fb
 modpkgtmp/
 
+# Dấu vết load lỗi & snapshot theo UIN do game tạo ra
+*.uinError
+*.db.[0-9]*
+
 # File log & System cache
 *.log
 .DS_Store

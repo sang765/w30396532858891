@@ -60,9 +60,24 @@ Game chỉ ghi file ra đĩa khi bạn thoát, nên nếu copy sớm thì sẽ l
 
 ### Bước 2 — Copy file map vào thư mục clone
 
-Tìm thư mục map trên máy — tên của nó trùng với tên repo
-(`w30396532858891`). Nếu chưa biết đường dẫn, hỏi trong nhóm: Android / iOS / PC
-mỗi nền tảng một chỗ khác nhau.
+Thư mục map nằm trong thư mục dữ liệu của game, và **tên nó trùng với tên repo**
+(`w30396532858891`). Vị trí tuỳ nền tảng:
+
+| Nền tảng | Thư mục dữ liệu của game |
+| --- | --- |
+| Windows | `%APPDATA%\miniworlddata410` = `C:\Users\<tên bạn>\AppData\Roaming\miniworlddata410` |
+| Android (bản global) | `/storage/emulated/0/Android/data/com.playmini.miniworld/files/miniplay/data/` |
+| iOS | Chưa rõ — hỏi trong nhóm |
+
+Hai đường dẫn trên chưa xác minh hết (bản Windows là nhớ lại; bản Android thì chỉ
+check được thư mục cha **có tồn tại**, còn bên trong bị hệ thống chặn quyền).
+Cách chắc chắn nhất: vào đúng chỗ đó, nếu thấy thư mục `w30396532858891` là đúng chỗ.
+
+> [!WARNING]
+> Từ Android 11 trở lên, `Android/data/` bị hệ thống chặn đọc — bạn chỉ xem được
+> thư mục tồn tại, còn bên trong thì `Permission denied` (file manager cũng vậy).
+> Nếu gặp lỗi này: vào game, xuất/chép map ra thư mục `Download/` trước,
+> rồi lấy file từ `Download/` thay vì vào thẳng `Android/data/`.
 
 Copy **nội dung** thư mục map đè vào thư mục bạn vừa clone, tức là copy đè lên
 `m0/`, `sandbox/`, `ss/`, `visualcode/`, `wdesc.fb`… của bản clone.

@@ -15,7 +15,7 @@ the folder the game just saved and pushing the diff.
 | Author | SangsDayy (UIN `1049305099`) |
 | Game | Mini World: CREATA |
 | Save version | `1.7.15` |
-| Description | `Chủ map bị cheater ban thiết bị` · `Hát [W.I.P]` |
+| Description | `Currently under development` · `Hát [W.I.P]` |
 | Built-in notes | In-game "Danh sách lệnh" (command list), stored in `wglobal.fb` |
 
 ## Commands shipped with the map
@@ -29,6 +29,7 @@ Taken from the map's own in-game notes.
 | `/clearbuff <buff_id\|all>` | Everyone |
 | `/tpa <player_id>` | Everyone |
 | `/size <value>` | Everyone |
+| `/money view [player_id]` | Everyone |
 | `/kill [player_id]` | Room owner |
 | `/fly [player_id]` | Room owner |
 | `/give <item_id> <count> [player_id]` | Room owner |
@@ -41,6 +42,7 @@ Taken from the map's own in-game notes.
 | `/tree <name\|id\|random> [player_id] [seconds]` | Room owner |
 | `/antivoid` | Room owner |
 | `/attr set\|add\|remove <id\|all> <attr> <value>` · `/attr view <id>` | Map owner |
+| `/money <add\|set\|remove> <player_id\|all> <value>` | Map owner |
 
 Permission bits used by `/perm`:
 

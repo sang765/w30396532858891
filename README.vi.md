@@ -15,7 +15,7 @@ vừa lưu đè lên rồi push phần thay đổi.
 | Tác giả | SangsDayy (UIN `1049305099`) |
 | Game | Mini World: CREATA |
 | Phiên bản bản lưu | `1.7.15` |
-| Mô tả | `Chủ map bị cheater ban thiết bị` · `Hát [W.I.P]` |
+| Mô tả | `Currently under development` · `Hát [W.I.P]` |
 | Ghi chú trong game | Mục "Danh sách lệnh", lưu trong `wglobal.fb` |
 
 ## Các lệnh có sẵn trong map
@@ -29,6 +29,7 @@ Lấy từ phần ghi chú trong game của chính map.
 | `/clearbuff <buff_id\|all>` | Mọi người |
 | `/tpa <player_id>` | Mọi người |
 | `/size <giá trị>` | Mọi người |
+| `/money view [player_id]` | Mọi người |
 | `/kill [player_id]` | Chủ phòng |
 | `/fly [player_id]` | Chủ phòng |
 | `/give <item_id> <số lượng> [player_id]` | Chủ phòng |
@@ -41,6 +42,7 @@ Lấy từ phần ghi chú trong game của chính map.
 | `/tree <tên\|id\|random> [player_id] [giây]` | Chủ phòng |
 | `/antivoid` | Chủ phòng |
 | `/attr set\|add\|remove <id\|all> <attr> <giá trị>` · `/attr view <id>` | Chủ map |
+| `/money <add\|set\|remove> <player_id\|all> <value>` | Chủ map |
 
 Các bit quyền dùng cho `/perm`:
 

@@ -1,0 +1,12 @@
+{
+	"api_version": "0.14.0",
+	"author": "hafts",
+	"authoruin": 1049305099,
+	"description": "默认插件包",
+	"name": "默认插件包",
+	"open_edit": true,
+	"pack_version": "0.1",
+	"restart_required": false,
+	"standalone": false,
+	"uuid": "2b96d66d-509b-475b-96fe-7fc131bc2b90" 
+} 

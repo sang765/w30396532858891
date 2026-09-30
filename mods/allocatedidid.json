@@ -1,0 +1,33 @@
+{
+	"actorid_allocated": 0,
+	"actorids": [
+	],
+	"biomeid_allocated": 0,
+	"biomeids": [
+	],
+	"blockid_allocated": 0,
+	"blockids": [
+	],
+	"craftingid_allocated": 0,
+	"craftingids": [
+	],
+	"furnaceid_allocated": 0,
+	"furnaceids": [
+	],
+	"itemid_allocated": 1,
+	"itemids": [
+		{
+			"file_name": "10493050992b96d66d-509b-475b-96fe-7fc131bc2b901790631527",
+			"id": 4097 
+		} 
+	],
+	"npcplotid_allocated": 0,
+	"npcplotids": [
+	],
+	"npctaskid_allocated": 0,
+	"npctaskids": [
+	],
+	"statusid_allocated": 0,
+	"statusids": [
+	] 
+} 

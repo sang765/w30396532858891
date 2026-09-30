@@ -1,0 +1,16 @@
+# File & Thư mục tạm của Mini World
+*temp*
+*tmp*
+*.backup*
+wdescbackup.fb
+thumb_temp.fb
+modpkgtmp/
+
+# File log & System cache
+*.log
+.DS_Store
+Thumbs.db
+
+# Cấu hình IDE / Editor
+.vscode/
+.idea/

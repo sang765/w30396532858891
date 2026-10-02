@@ -64,6 +64,20 @@ Bảng thuộc tính cho `/attr`: `1` HP tối đa · `2` HP hiện tại · `3`
 `27` Cấp độ hiện tại · `28` Thể lực hiện tại · `29` Thể lực tối đa ·
 `30` Tỷ lệ hồi Thể lực.
 
+## NPC tuỳ chỉnh
+
+Ba actor NPC nằm trong `mods/mapdefault_0.1_*/behavior/actor/`. Các file JSON này là
+text thường nên toàn bộ thông tin dưới đây đọc trực tiếp từ repo.
+
+| Actor ID | File | Tên | Chức năng | HP |
+| --- | --- | --- | --- | --- |
+| `100000` | `1790917867.json` | Lão Bạch | Người câu cá — phát cần câu khởi đầu, nâng cấp và sửa cần câu | `1200` |
+| `100001` | `1790918605.json` | Báo Tuyết | Bán cá lấy tiền | `1200` |
+| `100002` | `1790918662.json` | Đường Khả Hinh | Bán vé | `150` |
+
+`mods/allocatedidid.json` cấp cho mỗi NPC một actor ID kèm item ID tương ứng
+(item `4098`, `4099`, `4100`).
+
 ## Cấu trúc thư mục
 
 | Đường dẫn | Nội dung |
@@ -75,7 +89,7 @@ Bảng thuộc tính cho `/attr`: `1` HP tối đa · `2` HP hiện tại · `3`
 | `visualcode/` | Trạng thái editor lập trình khối — `actor.db`, `function.db`, `trigger.db`, `variable.db`, `custommsg.db` và Lua sinh ra ở `workspace/**`. |
 | `customui/` | Dự án UI tuỳ chỉnh (`.proj`, trigger, visualcode riêng). |
 | `custommodel/`, `custommotion/`, `custompic/` | Asset mô hình / động tác / ảnh tuỳ chỉnh, mỗi mục có `manifest.mf`. |
-| `mods/` | Pack hành vi mặc định (`GrassBlock`, `PeachLeaves`, `Sand`, một item). |
+| `mods/` | Pack hành vi mặc định — 3 khối (`GrassBlock`, `PeachLeaves`, `Sand`), 1 item, các NPC tuỳ chỉnh ở trên, và bảng phân ID `allocatedidid.json`. |
 | `modpkg/` | Manifest của các pack đã cài kèm kho biến `ss/` riêng. |
 | `blueprint/`, `vbp/` | Blueprint (`.bp`) và mô tả blueprint. |
 | `roles/` | File vai trò/quyền của từng người chơi, tên `u<UIN>.p`. |

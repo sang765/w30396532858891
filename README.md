@@ -55,6 +55,20 @@ Permission bits used by `/perm`:
 | `use` | 16 | `vehicle` | 1024 |
 | `attack` | 32 | `discard` | 2048 |
 
+## Custom NPCs
+
+Three NPC actors live in `mods/mapdefault_0.1_*/behavior/actor/`. Those JSON files are
+plain text, so everything below was read straight out of the repository.
+
+| Actor ID | File | Name | Purpose | HP |
+| --- | --- | --- | --- | --- |
+| `100000` | `1790917867.json` | Lão Bạch | Fishing — hands out the starter rod, and upgrades / repairs rods | `1200` |
+| `100001` | `1790918605.json` | Báo Tuyết | Sells fish for money | `1200` |
+| `100002` | `1790918662.json` | Đường Khả Hinh | Sells tickets | `150` |
+
+`mods/allocatedidid.json` allocates an actor ID and a matching item ID to each NPC
+(items `4098`, `4099`, `4100`).
+
 ## Repository layout
 
 | Path | Contents |
@@ -66,7 +80,7 @@ Permission bits used by `/perm`:
 | `visualcode/` | Visual-code (block) editor state — `actor.db`, `function.db`, `trigger.db`, `variable.db`, `custommsg.db` and the generated `workspace/**` Lua. |
 | `customui/` | Custom UI projects (`.proj`, triggers, per-project visualcode). |
 | `custommodel/`, `custommotion/`, `custompic/` | Custom model / motion / picture assets, each with its own `manifest.mf`. |
-| `mods/` | Default behaviour pack (`GrassBlock`, `PeachLeaves`, `Sand`, an item). |
+| `mods/` | Default behaviour pack — 3 blocks (`GrassBlock`, `PeachLeaves`, `Sand`), 1 item, the custom NPCs above, and the ID-allocation table `allocatedidid.json`. |
 | `modpkg/` | Installed pack manifests plus its own `ss/` variable store. |
 | `blueprint/`, `vbp/` | Blueprints (`.bp`) and blueprint descriptions. |
 | `roles/` | Per-player role/permission files, named `u<UIN>.p`. |

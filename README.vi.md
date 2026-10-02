@@ -43,6 +43,10 @@ Lấy từ phần ghi chú trong game của chính map.
 | `/antivoid` | Chủ phòng |
 | `/attr set\|add\|remove <id\|all> <attr> <giá trị>` · `/attr view <id>` | Chủ map |
 | `/money <add\|set\|remove> <player_id\|all> <value>` | Chủ map |
+| `/skybox` | Chủ map |
+
+`/skybox` được định nghĩa trong script trigger đã mã hoá
+`ss/trigger/game_type_1/script_179093296101.lua` nên cú pháp chi tiết không ghi ở đây.
 
 Các bit quyền dùng cho `/perm`:
 

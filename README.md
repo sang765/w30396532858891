@@ -43,6 +43,10 @@ Taken from the map's own in-game notes.
 | `/antivoid` | Room owner |
 | `/attr set\|add\|remove <id\|all> <attr> <value>` · `/attr view <id>` | Map owner |
 | `/money <add\|set\|remove> <player_id\|all> <value>` | Map owner |
+| `/skybox` | Map owner |
+
+`/skybox` is defined in the encrypted trigger script
+`ss/trigger/game_type_1/script_179093296101.lua`, so its exact syntax is not documented here.
 
 Permission bits used by `/perm`:
 

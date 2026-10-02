@@ -1,6 +1,18 @@
 {
-	"actorid_allocated": 0,
+	"actorid_allocated": 3,
 	"actorids": [
+		{
+			"file_name": "1049305099667f325c-1ff1-11e7-93ae-92361f0026711790917867",
+			"id": 2 
+		},
+		{
+			"file_name": "1049305099667f325c-1ff1-11e7-93ae-92361f0026711790918605",
+			"id": 3 
+		},
+		{
+			"file_name": "1049305099667f325c-1ff1-11e7-93ae-92361f0026711790918662",
+			"id": 4 
+		} 
 	],
 	"biomeid_allocated": 0,
 	"biomeids": [
@@ -14,11 +26,23 @@
 	"furnaceid_allocated": 0,
 	"furnaceids": [
 	],
-	"itemid_allocated": 1,
+	"itemid_allocated": 4,
 	"itemids": [
 		{
 			"file_name": "10493050992b96d66d-509b-475b-96fe-7fc131bc2b901790631527",
 			"id": 4097 
+		},
+		{
+			"file_name": "10493050992b96d66d-509b-475b-96fe-7fc131bc2b901790917867",
+			"id": 4098 
+		},
+		{
+			"file_name": "10493050992b96d66d-509b-475b-96fe-7fc131bc2b901790918605",
+			"id": 4099 
+		},
+		{
+			"file_name": "10493050992b96d66d-509b-475b-96fe-7fc131bc2b901790918662",
+			"id": 4100 
 		} 
 	],
 	"npcplotid_allocated": 0,

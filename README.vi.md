@@ -44,9 +44,11 @@ Lấy từ phần ghi chú trong game của chính map.
 | `/attr set\|add\|remove <id\|all> <attr> <giá trị>` · `/attr view <id>` | Chủ map |
 | `/money <add\|set\|remove> <player_id\|all> <value>` | Chủ map |
 | `/skybox` | Chủ map |
+| `/worldedit` | Chủ phòng / Chủ map |
 
-`/skybox` được định nghĩa trong script trigger đã mã hoá
-`ss/trigger/game_type_1/script_179093296101.lua` nên cú pháp chi tiết không ghi ở đây.
+`/skybox` và `/worldedit` được định nghĩa trong các script trigger đã mã hoá
+(`ss/trigger/game_type_1/script_179093296101.lua` và
+`ss/trigger/game_type_1/script_179094651701.lua`) nên cú pháp chi tiết không ghi ở đây.
 
 Các bit quyền dùng cho `/perm`:
 

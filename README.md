@@ -44,9 +44,11 @@ Taken from the map's own in-game notes.
 | `/attr set\|add\|remove <id\|all> <attr> <value>` · `/attr view <id>` | Map owner |
 | `/money <add\|set\|remove> <player_id\|all> <value>` | Map owner |
 | `/skybox` | Map owner |
+| `/worldedit` | Room owner / Map owner |
 
-`/skybox` is defined in the encrypted trigger script
-`ss/trigger/game_type_1/script_179093296101.lua`, so its exact syntax is not documented here.
+`/skybox` and `/worldedit` are defined in encrypted trigger scripts
+(`ss/trigger/game_type_1/script_179093296101.lua` and
+`ss/trigger/game_type_1/script_179094651701.lua`), so their exact syntax is not documented here.
 
 Permission bits used by `/perm`:
 
